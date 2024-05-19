@@ -1,0 +1,134 @@
+body {
+    background-color:#243034;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(fontks/Inter-Medium.otf) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+.header{
+    padding:35px 45px 0px 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+.logo_img{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav__button {
+    color:white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding:12.5px 35px 12.5px 35px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.nav__button:hover{
+    color: black;
+    background-color: #7CEEFF;
+    border-radius: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 38px 0px 38px;
+}
+.content_left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 63px;
+}
+.image{
+    max-width: 1127px;
+    max-height: 757px;
+    height: 100%;
+    width: 100%;
+}
+.propertys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(49, 77, 80, 0.6);
+    border-radius: 80px;
+    margin:-90px 49px 0px 56px;
+}
+.property_box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    margin: 23px 0px 28px 0px;
+}
+.property_text:nth-child(1){
+    font-size: 36px;
+    color: white;
+    margin-bottom: 33px;
+}
+.property_text:nth-child(2){
+    font-size: 16px;
+    color: white;
+}
+.content_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 39px;
+    max-width: 524px;
+    padding: 0 59px 52px 10px;
+}
+.directions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 524px;
+    max-height: 533px;
+    margin-bottom: 67px;
+}
+.second_title{
+    font-size: 48px;
+    color:  #00B9D4;
+}
+.first_title{
+    display: flex;
+    align-items: flex-start;
+    font-size: 155px;
+    color: white;
+}
+.hire_bike{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    max-width: 514px;
+    margin-bottom: 46px;
+}
+.bike_button{
+    font-size: 24px;
+    margin-bottom: 52px;
+    padding: 28px 30px;
+    border-radius: 30px;
+    line-height: 29.05px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(180deg, #009EB5 -19.41%, rgba(0, 158, 181, 0.23) 362.94%);
+
+}
+
+.sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 455px;
+}
