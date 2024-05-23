@@ -21,6 +21,12 @@ body {
     width: 100%;
     height: 100%;
 }
+.move{
+    transform: translate(2000px,0);
+    transform-origin: left;
+    
+    transition: transform 2s;
+}
 .nav{
     display: flex;
     flex-direction: row;
